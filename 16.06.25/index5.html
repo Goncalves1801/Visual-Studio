@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var litros=Number(prompt("Quantos litros você deseja?"))
+        var G= 5.15
+        var A= 4.
+        var comb=prompt("Informe G para gasolina e A para alcool")
+        var valortotal,desconto,valorapagar
+        if(comb=="G"  || comb=="g"){
+          if(litros <=20)
+
+          desconto=valortotal*4/100
+        }
+        else{
+            desconto=valortotal*6/100
+        }
+        else if(comb=="A" || comb=="a"){
+            if(litros <=20)
+         valortotal=litros*alcool
+        if(litros<=20){
+            desconto=valortotal*3/100
+        }
+        else{
+            desconto=valorapagar*5/100
+        }
+           
+        }
+        valorapagar=valortotal-desconto
+       alert("O valor a apagar é de" +valorapagar)
+    </script>
+</body>
+</html>

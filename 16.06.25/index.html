@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script>
+        var H1=Number(prompt("Digite a idade do 1 Homem : "))
+        var homemvelho
+        var H2=Number(prompt("Digite a idade do 2 Homem : "))
+        var homemnovo
+        var M1=Number(prompt("Digite a idade da 1 Mulher : "))
+        var mulhervelha
+        var M2=Number(prompt("Digite a idade da 2 Mulher : "))
+        var mulhernova
+        var resul1
+        var resul2
+        if(H1>H2){
+            homemvelho = H1
+            homemnovo = H2
+        }   
+        else(H2>H1);{
+            homemvelho = H2
+            homemnovo = H1 
+        }
+        if(M1>M2){
+            mulhervelha = M1 
+            mulhernova = M2 
+        }
+        else(M2>M1);{
+            mulhervelha = M2
+            mulhernova = M1
+        }
+        resul1= homemvelho+mulhernova
+        resul2=homemnovo+mulhervelha
+        alert("Resultado das idades: " + resul1)
+        alert(+resul2)
+       
+    </script>
+</body>
+</html>
