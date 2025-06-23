@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var idade = Number(prompt("Idade: "))
+        var altura = Number(prompt("Altura: "))
+        var peso = Number(prompt("Peso: "))
+
+        if ((idade > 12) && (altura >= 1.50) && (peso >= 50) && (peso<= 120)) {
+            alert("Pode brincar!")
+        }
+        
+        if(idade < 12){
+            alert("Você não pode brincar, muito novo")
+        }
+        else if(altura < 1.50){
+            alert("Você não pode brincar, muito baixo ")
+        }
+        if(peso < 50){
+            alert("Você não pode brincar, muito leve")
+        }
+        else if(peso > 120){
+            alert("Você não pode brincar, muito pesado")
+        }
+
+    </script>
+</body>
+</html>
