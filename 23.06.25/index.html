@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #index{
+            background: gray;
+            text-align: center;
+            padding: 100px;
+            width: 300px;
+            background-position: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="index" onclick="clicar()"onmouseenter = "entrar()" onmouseout="sair()">Botão</div>
+   <script>
+    function clicar(){
+        index.style.background = 'red'
+        index.innerText = 'Clicou'
+        index.style.color = 'white'
+        
+    }
+    function entrar(){
+        index.style.background = "yellow"
+        index.innerText = "Entrou"
+    }
+    function sair(){
+        index.style.background = "gray"
+        index.innerText = "Botão"
+        index.style.color = 'black'
+    }
+   </script>
+
+  
+</body>
+</html>
