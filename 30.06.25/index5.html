@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var somaMult = 0
+        var mult = Number(prompt("Multiplo de qual numero: "))
+        var inicio = Number(prompt("Início: "))
+        var fim = Number(prompt("Fim: "))
+        for(let x = inicio; x <= fim; x++){
+            if (x % mult == 0){
+                somaMult = somaMult + x
+            }
+        }
+        alert(somaMult)
+    </script>
+</body>
+</html>
