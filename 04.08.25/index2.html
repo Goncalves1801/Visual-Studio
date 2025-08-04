@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var qtnNum=Number(prompt("Informe a quantidade de números a serem lidos"))
+        var valor
+        var fax1=0
+        var fax2=0
+        var fax3=0
+        var fax4=0
+
+        while(qtnNum>=1){
+            valor = Number(prompt("informe 1 valor entre 0 e 100: "))
+        
+        if(valor>= 0 && valor <=25){
+            fax1=fax1 +1
+
+           if(valor>= 26 && valor <=50)
+            fax2=fax2 +1
+
+           else if(valor>= 51 && valor <=75)
+            fax3=fax3 +1
+
+           else if(valor>= 76 && valor <=100)
+            fax4=fax4 +1
+
+            qtnNum=qtnNum-1
+        }
+        } 
+    </script>
+</body>
+</html>
+ 
